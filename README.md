@@ -12,14 +12,14 @@ Library collection include the:
 | 5 | category | Category or genre of the book |
 | 6 | year | Year when the book was published |
 
-# 0. Main Menu
+# Main Menu
 
-# 1. Create
+# Sub Menu 1: Create
 
-# 2. Read
+# Sub Menu 2: Read
 
-# 3. Update
+# Sub Menu 3: Update
 
-# 4. Delete
+# Sub Menu 4: Delete
 
 # Repeated Function
