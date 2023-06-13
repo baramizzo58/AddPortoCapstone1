@@ -13,13 +13,31 @@ Library collection include the:
 | 6 | year | Year when the book was published |
 
 # Main Menu
+Main menu list include 5 sub menu:
 
-# Sub Menu 1: Create
+## Sub Menu 1: Create
+Adding the book to the library collection. The book that already at library can't be add again.
 
-# Sub Menu 2: Read
+## Sub Menu 2: Read
+Show the collection of the library. Can show all the collection or only choosen book.
 
-# Sub Menu 3: Update
+## Sub Menu 3: Update
+Change the book data.
 
-# Sub Menu 4: Delete
+## Sub Menu 4: Delete
+Delete the book data.
+
+## Sub Menu 5: Quit
+Quit from the library program.
 
 # Repeated Function
+In addition to the functions mentioned above, there are 3 function that repeated many times:
+
+## Input book number
+A `WHILE` looping, to make sure the book number input is digit.
+
+## Not found
+To inform that the data is not found on the list.
+
+## Wrong option
+To inform that the input option is out of range.
