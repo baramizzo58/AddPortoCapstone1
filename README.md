@@ -1,43 +1,31 @@
-# Library CRUD Program
+# CRUD Program: Student Grade List (Daftar Nilai Siswa)
 Additional Portofolio Capstone Project Modul 1 Purwadhika Job Connector Data Science Online Batch 9 (JDSCOL-09)
 
 # Data Description
-Library collection include the:
-| No | Column Name | Column Description |
-| -- | -- | -- |
-| 1 | number | Number of the book |
-| 2 | title | Title of the book |
-| 3 | author | Author of the book |
-| 4 | publisher | Publisher of the book |
-| 5 | category | Category or genre of the book |
-| 6 | year | Year when the book was published |
+Berikut deskripsi kolom:
+| No | Nama Kolom | Type | Range | Deskripsi |
+| -- | -- | -- | -- | -- |
+| 1 | nis | str | - | Nomor Induk Siswa (NIS) |
+| 2 | nama | str | Max 3 kata (Selebihnya akan disingkat) | Nama lengkap siswa |
+| 3 | sex | str | M (Male) / F (Female) | Jenis Kelamin Siswa |
+| 4 | matematika | int | 1-100 | Nilai matematika |
+| 5 | fisika | int | 1-100 | Nilai fisika |
+| 6 | kimia | int | 1-100 | Nilai kimia |
 
 # Main Menu
-Main menu list include 5 sub menu:
+Main menu terdiri dari 5 fungsi:
 
 ## Sub Menu 1: Create
-Adding the book to the library collection. The book that already at library can't be add again.
+Menambahkan nilai Siswa
 
 ## Sub Menu 2: Read
-Show the collection of the library. Can show all the collection or only choosen book.
+Menampilkan nilai siswa
 
 ## Sub Menu 3: Update
-Change the book data.
+Mengubah nilai Siswa
 
 ## Sub Menu 4: Delete
-Delete the book data.
+Menghapus Nilai Siswa
 
 ## Sub Menu 5: Quit
-Quit from the library program.
-
-# Repeated Function
-In addition to the functions mentioned above, there are 3 function that repeated many times:
-
-## Input book number
-A `WHILE` looping, to make sure the book number input is digit.
-
-## Not found
-To inform that the data is not found on the list.
-
-## Wrong option
-To inform that the input option is out of range.
+Keluar dari Program
