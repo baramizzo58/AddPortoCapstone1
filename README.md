@@ -13,7 +13,7 @@ Berikut deskripsi kolom:
 | 6 | `kimia` | `int` | 1-100 | Nilai kimia |
 
 # Main Menu
-Main menu terdiri dari 5 fungsi:
+Untuk flowchart program yang menggambarkan alur kerja setiap fungsi, bisa dilihat di link [berikut](https://github.com/baramizzo58/AddPortoCapstone1/blob/main/Flowchart%20Program%20CRUD.pdf). Main menu pada program ini terdiri dari 5 fungsi:
 
 ## Sub Menu 1: Read
 Sub-menu ini akan menampilkan daftar nilai siswa. Terdapat 2 opsi yaitu menampilkan daftar nilai seluruh siswa & menampilkan daftar nilai seorang siswa. Dimana jika ingin menampilkan daftar nilai seorang siswa, akan diminta memasukkan `nis` yang harus terdapat dalam daftar nilai siswa.
