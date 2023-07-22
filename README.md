@@ -5,18 +5,19 @@ Additional Portofolio Capstone Project Modul 1 Purwadhika Job Connector Data Sci
 Berikut deskripsi kolom:
 | No | Nama Kolom | Type | Range | Deskripsi |
 | -- | -- | -- | -- | -- |
-| 1 | nis | str | - | Nomor Induk Siswa (NIS) |
-| 2 | nama | str | Max 3 kata (Selebihnya akan disingkat) | Nama lengkap siswa |
-| 3 | sex | str | M (Male) / F (Female) | Jenis Kelamin Siswa |
-| 4 | matematika | int | 1-100 | Nilai matematika |
-| 5 | fisika | int | 1-100 | Nilai fisika |
-| 6 | kimia | int | 1-100 | Nilai kimia |
+| 1 | `nis` | str | - | Nomor Induk Siswa (NIS) |
+| 2 | `nama` | str | Max 3 kata (Selebihnya akan disingkat) | Nama lengkap siswa |
+| 3 | `sex` | str | M (Male) / F (Female) | Jenis Kelamin Siswa |
+| 4 | `matematika` | int | 1-100 | Nilai matematika |
+| 5 | `fisika` | int | 1-100 | Nilai fisika |
+| 6 | `kimia` | int | 1-100 | Nilai kimia |
 
 # Main Menu
 Main menu terdiri dari 5 fungsi:
 
 ## Sub Menu 1: Create
-Menambahkan nilai Siswa
+Menambahkan nilai Siswa.
+Terdapat 2 menu yaitu menampilkan daftar nilai seluruh siswa & menampilkan daftar nilai seorang siswa. Dimana jika ingin menampilkan daftar nilai seorang siswa, akan diminta memasukkan NIS.
 
 ## Sub Menu 2: Read
 Menampilkan nilai siswa
