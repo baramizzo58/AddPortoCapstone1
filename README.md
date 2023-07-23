@@ -5,7 +5,7 @@ Additional Portofolio Capstone Project Modul 1 Purwadhika Job Connector Data Sci
 Berikut deskripsi kolom:
 | No | Nama Kolom | Type | Range | Deskripsi |
 | -- | -- | -- | -- | -- |
-| 1 | `nis` | `str` | - | Nomor Induk Siswa (NIS) |
+| 1 | `nis` | `int` | - | Nomor Induk Siswa (NIS) |
 | 2 | `nama` | `str` | Max 3 kata (Selebihnya akan disingkat) | Nama lengkap siswa |
 | 3 | `sex` | `str` | M (Male) / F (Female) | Jenis Kelamin Siswa |
 | 4 | `matematika` | `int` | 1-100 | Nilai matematika |
