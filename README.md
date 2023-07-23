@@ -1,5 +1,6 @@
 # CRUD Program: Student Grade List (Daftar Nilai Siswa)
-Additional Portofolio Capstone Project Modul 1 Purwadhika Job Connector Data Science Online Batch 9 (JCDSOL-09) - Noor Kharismawan Akbar
+Additional Portofolio Capstone Project Modul 1 Purwadhika Job Connector Data Science Online Batch 9 (JCDSOL-09) - Noor Kharismawan Akbar<br>
+Link Medium untuk penjelasan English Version: https://medium.com/@akbar.noorkharismawan/student-grade-database-using-python-crud-program-things-to-watch-out-for-1a4d3a98b285
 
 # Data Description
 Berikut deskripsi kolom:
